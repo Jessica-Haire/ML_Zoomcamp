@@ -1,0 +1,25 @@
+[project]
+name = "ml-zoomcamp"
+version = "0.1.0"
+description = "Machine Learning Zoomcamp coursework"
+requires-python = ">=3.11,<3.12"
+
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "jupyter",
+]
+
+[tool.uv]
+package = false
+python-preference = "only-system"

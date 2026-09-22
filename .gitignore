@@ -28,3 +28,11 @@ __pycache__/
 
 **midterms_evaluations/
 **samples/
+
+# Local development environment
+.venv/
+
+# Local secrets
+.env
+.env.*
+!.env.example
